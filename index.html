@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beryl Rubacky</title>
+    <!-- <link rel="icon" href="images/favicon.svg" sizes="any" type="image/svg+xml"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Megrim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6a64f48b7e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="container">
+        <div id="bio-container" class="mobile-selected">
+            <div id="icon">
+            <img src="images/beryl pfp.jpg">
+            </div>
+            <div id="socials-container">
+                <div><a href="https://www.linkedin.com/in/beryl-rubacky-378064138/"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                |
+                <div><a href="https://github.com/berylrubacky"><i class="fa-brands fa-github-alt"></i></a></div>
+                |
+                <div><a href="https://bsky.app/profile/beryl.rubacky.dev"><i class="fa-brands fa-bluesky"></i></a></div>
+            </div>
+            <div id="name">Beryl Silly Rubacky<div id="scroll-top"></div></div>
+            <div id="bio">
+                    <p>
+                        Hello, I'm a software engineer primarily focused on Android Development and Quality Assurance. I am extremely familiar with Kotlin, Android Jetpack, Android Compose, and Espresso. On the QA side of things, I have extensive experience in writing automated tests in Selenium, Protractor, Cypress, and Playwright, in a variety of languages. I also have experience writing API tests, performing manual testing, as well as building extensive testing tools to automate testing further.
+                    </p>
+                    <p>
+                        Outside of my professional life, I enjoy working on and building things. Whether that is repairing walkmans and other cassette players, building mechanical keyboards, or writing Android Apps for my favorite games, I'm always tinkering on something. Lately I've been working on my audio setup so I can dub and label cassettes, and I'm hoping to add MiniDiscs to that.
+                    </p>
+                    <p> I also love to wind down by listening to my cassette collection while drinking tea or knitting. </p>
+            </div>
+        </div>
+        <div id="info-container">
+            <div class="button-container">
+                <div id="nav-projects" class="selected" onclick="select(0)">
+                    <div class="background">
+                        <strong>Projects</strong>
+                    </div>
+                </div>
+                <div id="nav-experience" onclick="select(1)">
+                    <div class="background">
+                        <strong>Professional Work</strong>
+                    </div>
+                </div>
+            </div>
+            <div id="projects-container" class="selected">
+                <div>Maxixe</div>
+                <div>Ergodox</div>
+                <div>Boardwalk</div>
+                <div>Audio Set Up</div>
+                <div>Walkman Repairs</div>
+                <div>Seabunne</div>
+                <div>MoNet 2</div>
+            </div>
+            <div id="experience-container">
+                <div>Quality Logic</div>
+                <div>Photobiz</div>
+                <div>Toshiba Global Commerce</div>
+                <div>Orasi / Qualitest Group</div>
+                <div>Fidelity Investments</div>
+            </div>
+        </div>
+        <div id="mobile-buttons" class="button-container">
+            <div id="mobile-about" class="selected" onclick="mobileSelect(0)">
+                <div class="background">
+                    <strong>About</strong>
+                </div>
+            </div>
+            <div id="mobile-projects" onclick="mobileSelect(1)">
+                <div class="background">
+                    <strong>Projects</strong>
+                </div>
+            </div>
+            <div id="mobile-experience" onclick="mobileSelect(2)">
+                <div class="background">
+                    <strong>Experience</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+  <script src="script.js"></script> 
+</html>
