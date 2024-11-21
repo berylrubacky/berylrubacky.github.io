@@ -12,7 +12,7 @@ body{
 	display: flex;
   	flex-wrap: wrap;
 	width: 100vw;
-	height: 100vh;
+	height: 100dvh;
 	margin: 0px;
 	min-height: 0px;
 	background-color: var(--background);
@@ -21,7 +21,7 @@ body{
 #container{
 	display: flex;
 	width: 100vw;
-	height: 100vh;
+	height: 100dvh;
 	padding-top: 0px;
 	color: var(--text-color);
 	flex-direction: column;
@@ -194,7 +194,7 @@ a:visited{
 
 @media only screen and (min-width: 768px) {
 	body {
-		height: 100vh;
+		height: 100dvh;
 		width: 100vw;
 	}
 	#container {
@@ -217,8 +217,8 @@ a:visited{
 	#bio-container {
 		position: inherit;
 		width: 25%;
-		height: 100vh;
-		max-height: 100vh;
+		height: 100dvh;
+		max-height: 100dvh;
 		display: flex;
 		flex-direction: column;
 		overflow: hidden;
