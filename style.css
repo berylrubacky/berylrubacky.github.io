@@ -57,6 +57,7 @@ body{
 	width: 100%;
 	display: inline-block;
   	text-align: center;
+	color: var(--text-color)
 }
 #name{
 	font-family: "Megrim", system-ui;
@@ -117,7 +118,7 @@ a:visited{
 .button-container strong{
 	transform: rotate(-45deg);
 	background-color: var(--background);
-	color: #79B473;
+	color: var(--green-bright);
 }
 .button-container .background{
 	width: 1000px;
@@ -129,7 +130,7 @@ a:visited{
 	align-items: center;
 }
 .button-container > div:hover strong{
-	color: #FFDAC6;
+	color: var(--text-color);
 }
 .button-container > div:active strong{
 	transform: translate(0px, 1px) rotate(-45deg);
@@ -139,7 +140,7 @@ a:visited{
 	background-repeat: repeat;
 }
 .button-container div.selected strong{
-	color: #FFDAC6;
+	color: var(--text-color);
 }
 .button-container .selected .background{
 	background-image: url("images/scanlines.png");
@@ -167,7 +168,6 @@ a:visited{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	justify-content: space-evenly;
 }
 #projects-container > div{
 	margin: 10px;
@@ -222,7 +222,7 @@ a:visited{
 		display: flex;
 		flex-direction: column;
 		overflow: hidden;
-		border-color: #70A37F;
+		border-color: var(--green-faded);
 		border-style:none double none none;
 	}
 	#bio{
